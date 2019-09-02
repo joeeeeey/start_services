@@ -1,0 +1,14 @@
+
+#/bin/bash
+
+ST_REPO_PATH=${ST_REPO_PATH}
+
+if [ -z "$ST_REPO_PATH" ]
+then
+      ST_REPO_PATH=~/repos
+fi
+
+cd ${ST_REPO_PATH}/payments-service
+source .env/bin/activate
+cd deploy/core
+make run

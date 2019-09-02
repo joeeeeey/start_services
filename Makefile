@@ -1,0 +1,39 @@
+start_all:
+	open -a Terminal.app bookings-service
+	open -a Terminal.app commission-service
+	open -a Terminal.app commute-time-service
+	open -a Terminal.app email-relay-service
+	open -a Terminal.app emarsys-service
+	open -a Terminal.app entrata-service
+	open -a Terminal.app landlords-service
+	open -a Terminal.app lead-gen-partners-service
+	open -a Terminal.app listings-service
+	open -a Terminal.app locations-service
+	open -a Terminal.app messaging-service
+	open -a Terminal.app partners-service
+	open -a Terminal.app payments-service
+	open -a Terminal.app properties-service
+	open -a Terminal.app salesforce-service
+	open -a Terminal.app search-service
+	open -a Terminal.app special-offers-service
+	open -a Terminal.app studapart-service
+	open -a Terminal.app tracking-service
+	open -a Terminal.app translations-service
+	open -a Terminal.app unite-service
+	open -a Terminal.app universities-service
+	open -a Terminal.app users-service
+	open -a Terminal.app wishlists-service
+	open -a Terminal.app reviews-service
+
+start_create_lead:
+	open -a Terminal.app bookings-service
+	open -a Terminal.app commission-service
+	open -a Terminal.app commute-time-service
+	open -a Terminal.app landlords-service
+	open -a Terminal.app lead-gen-partners-service
+	open -a Terminal.app listings-service
+	open -a Terminal.app locations-service
+	open -a Terminal.app messaging-service
+	open -a Terminal.app partners-service
+	open -a Terminal.app payments-service
+	open -a Terminal.app properties-service
